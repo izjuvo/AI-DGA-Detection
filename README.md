@@ -24,36 +24,6 @@ domain ---> [char sequence] -----> BiLSTM -----------/
 | BiLSTM RNN | char sequences | ~51% |
 | **Stacking Meta-Model** | combines all 3 | **~89%** |
 
-## Repo Structure
-
-.
-├── train_stacking.py # training script (full pipeline)
-├── scripts/
-│ └── predict.py # CLI domain prediction tool
-├── models/ # saved model artefacts (.pkl / .h5 / .json)
-├── dga_domains_full.csv # dataset
-├── docs/ # report + summaries (optional)
-└── README.md
-
-## How to Run
-
-### Install
-
-```bash
-pip install -r requirements.txt
-
-Train
-
-python train_stacking.py
-
-Predict one domain
-
-python scripts/predict.py --domain example.com
-
-Predict many domains
-
-python scripts/predict.py --file domains.txt
-
 Example output:
 
 Domain        : westhrtyq.com
