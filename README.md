@@ -1,3 +1,5 @@
+![MIT License](https://img.shields.io/badge/license-MIT-green.svg)
+
 # AI-Powered DGA Domain Detection (Final Year Project)
 
 This repository contains my final year project implementation for detecting algorithmically generated domains (DGAs) using Machine Learning + Deep Learning + an Ensemble Stacking architecture.
